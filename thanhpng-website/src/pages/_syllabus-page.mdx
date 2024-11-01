@@ -1,0 +1,88 @@
+import {InlineWidget} from "react-calendly";
+import TOC from '@theme/TOC';
+import TOCInline from "@theme/TOCInline"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import docusaurusConfig from "../../.docusaurus/docusaurus.config.mjs";
+import Figure from "../components/Figure";
+
+<div id={"mobile-toc"} style={{display:"flex", justifyContent:"center", alignContent:"center"}}>
+<details style={{width:"75%"}}>
+<summary>
+<div style={{textAlign:"center"}}>
+
+**Table of Contents**
+
+</div>
+</summary>
+<left>
+<TOCInline toc={toc}/>
+</left>
+
+</details>
+</div>
+
+<div className={"container"} >
+<div className={"row"}>
+<div className={"syllabus-content col"}>
+
+
+<div  className={"container"}>
+<div className={"row"}>
+<div className={"col col--4"}>
+
+
+# Instructor
+
+<img id={"professor-applebaum"} className={"masked"} src={"https://s.gravatar.com/avatar/d7050d71af151b8db6f046e33e9e8e2e?s=200"} alt={"picture of Professor Thanh Phuoc Nguyen."}/>
+
+Professor Thanh Phuoc Nguyen
+Email:
+thanh.png@temple.edu
+Office: SERC 325
+
+</div>
+
+<div className={"col col--8"}>
+
+## Courses
+- Intro to C Programming Section 005
+    - Lecture Mondays 5:30 PM - 8:00 PM - Wachman Hall 407
+    - Lab Wednesday 5:30 PM - 7:20 PM - SERC 206
+
+</div>
+</div>
+
+</div>
+
+## Office Hours 
+
+### Professor Thanh
+
+<details>
+<summary>
+Office hours with Prof. Thanh can be arranged by appointment using Calendly and will be conducted via Zoom. Office hours are available at the following times:
+
+- [Placeholder]
+
+[//]: # (- Friday, 12:15-1:30 PM Online or in Person **SERC 325**)
+
+**To schedule an appointment with Prof. Thanh, click here!**
+
+
+</summary>
+
+If the scheduling widget doesn't appear use the following Calendly link: https://calendly.com/thanh-phuoc-nguyen/office-hours
+
+<>
+{docusaurusConfig.customFields.is_pdf ? <></> : <InlineWidget url="https://calendly.com/thanh-phuoc-nguyen/office-hours" />}
+</>
+
+
+</details>
+
+### TA 
+
+#### [Placeholder]
+
+- [Placeholder]
