@@ -85,12 +85,12 @@ const config = {
             title: 'Communication',
             items: [
               {
-                label: 'Discord',
-                href: 'https://thanhpng.com',
-              },
-              {
                 label: 'Calendly',
                 href: 'https://calendly.com/thanh-phuoc-nguyen/',
+              },
+              {
+                label: 'Remote SSH - GPU Server',
+                to:'/gpu-server',
               },
               {
                 label: 'Email Me',
