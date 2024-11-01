@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import SyllabusPage from './_syllabus-page.mdx'
+import MDXContent from '@theme/MDXContent';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
