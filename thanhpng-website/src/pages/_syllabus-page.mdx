@@ -1,8 +1,8 @@
-import {InlineWidget} from "react-calendly";
-import TOC from '@theme/TOC';
-import TOCInline from "@theme/TOCInline"
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import { InlineWidget } from "react-calendly";
+import TOC from "@theme/TOC";
+import TOCInline from "@theme/TOCInline";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 import docusaurusConfig from "../../.docusaurus/docusaurus.config.mjs";
 import Figure from "../components/Figure";
 
@@ -29,34 +29,41 @@ import Figure from "../components/Figure";
 <div className={"row"}>
 <div className={"col col--4"}>
 
-
 # Instructor
 
-<img id={"professor-thanh"} className={"masked"} src={"https://gravatar.com/userimage/257832771/a02070f803e0bd2ec75a6c498bc6e758.jpeg?size=200"} alt={"picture of Professor Thanh Phuoc Nguyen."}/>
+<img
+  id={"professor-thanh"}
+  className={"masked"}
+  src={
+    "https://gravatar.com/userimage/257832771/a02070f803e0bd2ec75a6c498bc6e758.jpeg?size=200"
+  }
+  alt={"picture of Professor Thanh P. Nguyen."}
+/>
 
-**Professor** Thanh P. Nguyen
-**Email:** 
+Professor Thanh P. Nguyen
+Email:
 thanh.png@temple.edu
-**Office:** SERC 325
+Office: SERC 325
 
 </div>
 
 <div className={"col col--8"}>
 
 ## Courses
-- **Intro to C Programming** - Section 005
-    - Lecture Monday 5:30 PM - 8:00 PM - Wachman Hall 407
-    - Lab Wednesday 5:30 PM - 7:20 PM - SERC 206
-- **Projects in Computer Science** - Section 002
-    - Lecture Monday & Friday 12:30 PM - 1:50 PM - SERC 214
-    - Lab Wednesday 1:00 PM - 1:50 PM - SERC 214
+
+- Computer Programming in C - Section 005
+  - Lecture Monday 5:30 PM - 8:00 PM - Wachman Hall 407
+  - Lab Wednesday 5:30 PM - 7:20 PM - SERC 206
+- Projects in Computer Science - Section 002
+  - Lecture Monday & Friday 12:30 PM - 1:50 PM - SERC 214
+  - Lab Wednesday 1:00 PM - 1:50 PM - SERC 214
 
 </div>
 </div>
 
 </div>
 
-## Office Hours 
+## Office Hours
 
 ### Professor Thanh
 
@@ -72,26 +79,27 @@ Office hours with Prof. Thanh can be arranged by appointment using Calendly and 
 
 **To schedule an appointment with Prof. Thanh, click here!**
 
-
 </summary>
 
 If the scheduling widget doesn't appear use the following Calendly link: https://calendly.com/thanh-phuoc-nguyen/office-hours
 
 <>
-{docusaurusConfig.customFields.is_pdf ? <></> : <InlineWidget url="https://calendly.com/thanh-phuoc-nguyen/office-hours" />}
+  {docusaurusConfig.customFields.is_pdf ? (
+    <></>
+  ) : (
+    <InlineWidget url="https://calendly.com/thanh-phuoc-nguyen/office-hours" />
+  )}
 </>
-
 
 </details>
 
-### TA 
+### TA
 
 #### [Placeholder]
 
 - [Placeholder]
 
 ## Relevant University Policies for this course
-
 
 ### Students with Disabilities
 
@@ -100,7 +108,6 @@ Please bear in mind that COVID-19 may result in a need for new or additional acc
 :::
 
 Any student who has a need for accommodations based on the impact of a documented disability or medical condition should contact Disability Resources and Services (DRS) located in the Howard Gittis Student Center South, 4th Floor at drs@temple.edu or 215-204-1280 to request accommodations and learn more about the resources available to you. If you have a DRS accommodation letter to share with me, or you would like to discuss your accommodations, please contact me as soon as practical. I will work with you and with DRS to coordinate reasonable accommodations for all students with documented disabilities. All discussions related to **your accommodations will be confidential**.
-
 
 ### Student Support Services
 
@@ -118,8 +125,6 @@ support. Notably, the Temple University Cherry Pantry and the Temple University 
 Student Aid Program are in operation as well as a variety of resources from the Division of
 Student Affairs.
 
-
-
 ### Attendance and Your Health
 
 We continue to meet the changing circumstances of the COVID- 19 pandemic with flexibility and by working together as a community. To achieve course learning goals, students must attend and participate in classes, according to the course requirements. However, if you feel unwell or if you are under quarantine or in isolation because you have been exposed to the virus or tested positive for it, you should not come to campus or attend in-person classes or activities. It is the student’s responsibility to contact me to create a plan for participation and engagement in the course as soon as you are able to do so, and to make a plan to complete all assignments in a timely fashion when illness delays your completion.
@@ -133,12 +138,13 @@ Limited resources are available for students who do not have the technology they
 ### Grading Scale
 
 | A Range   | B Range   | C Range   | D Range   | F Range |
-|-----------|-----------|-----------|-----------|---------|
+| --------- | --------- | --------- | --------- | ------- |
 | A: 94-100 | B+: 87-89 | C+: 77-79 | D+: 67-69 | F: 0-59 |
 | A-: 90-93 | B: 84-86  | C: 74-76  | D: 64-66  |         |
 |           | B-: 80-83 | C-: 70-73 | D-: 60-63 |         |
 
 ### Expectations for Class Conduct
+
 The best way to maintain a safe and focused learning environment is for everyone to get vaccinated. We all need to follow the university guidance on masking as well. For your general health and well-being, hand washing and monitoring your health is still highly recommended.
 It is also important to foster a respectful and productive learning environment that includes all students in our diverse community of learners. Our differences, some of which are outlined in the University's nondiscrimination statement, will add richness to this learning experience. Therefore, all opinions and experiences, no matter how different or controversial they may be perceived, must be respected in the tolerant spirit of academic discourse.
 Treat your classmates and instructor with respect in all communication, class activities, and meetings. You are encouraged to comment, question, or critique an idea but you are not to attack an individual. Please consider that sarcasm, humor and slang can be misconstrued in online interactions and generate unintended disruptions. Profanity should be avoided as should the use of all capital letters when composing responses in discussion threads, which can be construed as “shouting” online. Remember to be careful with your own and others’ privacy. In general, have your behavior mirror how you would like to be treated by others.
