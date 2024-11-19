@@ -25,13 +25,13 @@ export function HomepageHeader() {
             <div className={"col button_group"}>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/intro"
+                to="#courses"
               >
                 Courses 📆
               </Link>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/intro"
+                to="#office-hours"
               >
                 Office Hours 🕰️
               </Link>
