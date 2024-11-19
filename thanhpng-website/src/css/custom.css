@@ -79,6 +79,10 @@ backdrop-filter: opacity(50%);
   margin-top: 50px;
 }
 
+.button_group .button {
+  margin-right: 50px; /* Adjust the value to control the spacing */
+}
+
 @media screen and (max-width: 996px) {
 
   #mobile-toc {

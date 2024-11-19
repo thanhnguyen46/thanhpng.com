@@ -9,8 +9,8 @@ export default {
   "favicon": "img/temple_logo.svg",
   "url": "https://thanhpng.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "thanhnguyen46",
+  "projectName": "thanhnguyen.com",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -65,12 +65,12 @@ export default {
           "title": "Communication",
           "items": [
             {
-              "label": "Discord",
-              "href": "https://thanhpng.com"
-            },
-            {
               "label": "Calendly",
               "href": "https://calendly.com/thanh-phuoc-nguyen/"
+            },
+            {
+              "label": "Remote SSH - GPU Server",
+              "to": "/gpu-server"
             },
             {
               "label": "Email Me",

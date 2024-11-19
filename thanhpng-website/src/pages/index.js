@@ -33,7 +33,7 @@ export function HomepageHeader() {
                 className="button button--secondary button--lg"
                 to="/docs/intro"
               >
-                Docusaurus Tutorial 🦖
+                Office Hours 🕰️
               </Link>
             </div>
           </div>
