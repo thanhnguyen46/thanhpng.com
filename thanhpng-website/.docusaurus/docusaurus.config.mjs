@@ -45,12 +45,12 @@ export default {
       },
       "items": [
         {
-          "href": "thanhpng.com",
+          "href": "https://thanhpng.com",
           "position": "left",
           "label": "Computer Programming in C"
         },
         {
-          "href": "thanhpng.com",
+          "href": "/gpu-server",
           "position": "left",
           "label": "Software Design"
         },

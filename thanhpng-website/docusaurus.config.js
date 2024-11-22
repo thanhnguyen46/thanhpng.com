@@ -71,7 +71,7 @@ const config = {
             label: 'Computer Programming in C',
           },
           {
-            href: "https://thanhpng.com",
+            href: '/gpu-server',
             position: 'left',
             label: 'Software Design',
           },
