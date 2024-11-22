@@ -45,10 +45,19 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "href": "thanhpng.com",
           "position": "left",
-          "label": "Docusaurus Tutorial"
+          "label": "Computer Programming in C"
+        },
+        {
+          "href": "thanhpng.com",
+          "position": "left",
+          "label": "Software Design"
+        },
+        {
+          "href": "https://capstone.ianapplebaum.com",
+          "position": "left",
+          "label": "Projects in Computer Science"
         },
         {
           "href": "https://www.linkedin.com/in/thanhpng/",
