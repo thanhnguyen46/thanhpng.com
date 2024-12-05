@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'thanhnguyen46', // Usually your GitHub org/user name.
-  projectName: 'thanhnguyen.com', // Usually your repo name.
+  projectName: 'thanhpng.com', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'https://social.cards/api/img/6sikhax1sv',
       navbar: {
         title: 'Thanh Nguyen',
         logo: {
