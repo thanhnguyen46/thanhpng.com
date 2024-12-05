@@ -33,6 +33,11 @@ export function HomepageHeader() {
                             </Link>
                             <Link
                                 className="button button--secondary button--lg"
+                                to="https://capstone.ianapplebaum.com">
+                                Projects in CS 🎓
+                            </Link>
+                            <Link
+                                className="button button--secondary button--lg"
                                 to="#office-hours">
                                 Office Hours 🕰️
                             </Link>
