@@ -66,7 +66,7 @@ const config = {
         },
         items: [
           {
-            href: "https://thanhpng.com",
+            href: "https://c-programming.thanhpng.com",
             position: 'left',
             label: 'Computer Programming in C',
           },
