@@ -10,7 +10,7 @@ export default {
   "url": "https://thanhpng.com",
   "baseUrl": "/",
   "organizationName": "thanhnguyen46",
-  "projectName": "thanhnguyen.com",
+  "projectName": "thanhpng.com",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -36,7 +36,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "https://social.cards/api/img/6sikhax1sv",
     "navbar": {
       "title": "Thanh Nguyen",
       "logo": {
@@ -45,7 +45,7 @@ export default {
       },
       "items": [
         {
-          "href": "https://thanhpng.com",
+          "href": "https://c-programming.thanhpng.com",
           "position": "left",
           "label": "Computer Programming in C"
         },
