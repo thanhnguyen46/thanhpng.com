@@ -64,28 +64,6 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/temple_logo.svg',
         },
-        items: [
-          {
-            href: "https://c-programming.thanhpng.com",
-            position: 'left',
-            label: 'Computer Programming in C',
-          },
-          {
-            href: '/gpu-server',
-            position: 'left',
-            label: 'Software Design',
-          },
-          {
-            href: "https://capstone.ianapplebaum.com",
-            position: 'left',
-            label: 'Projects in Computer Science',
-          },
-          {
-            href: 'https://www.linkedin.com/in/thanhpng/',
-            label: 'LinkedIn',
-            position: 'right',
-          },
-        ],
       },
       footer: {
         style: 'dark',
@@ -94,16 +72,12 @@ const config = {
             title: 'Communication',
             items: [
               {
-                label: 'Calendly',
-                href: 'https://calendly.com/thanh-phuoc-nguyen/',
-              },
-              {
-                label: 'Remote SSH - GPU Server',
-                to:'/gpu-server',
-              },
-              {
                 label: 'Email Me',
                 href: 'mailto:tul20076@temple.edu',
+              },
+              {
+                label: 'Calendly',
+                href: 'https://calendly.com/thanh-phuoc-nguyen/',
               },
             ],
           },
@@ -111,12 +85,37 @@ const config = {
             title: 'Suggested Tools',
             items: [
               {
+                label: 'IntelliJ IDEA',
+                href: 'https://www.jetbrains.com/help/idea/installation-guide.html',
+              },
+              {
                 label: 'CLion',
                 href: 'https://www.jetbrains.com/help/clion/installation-guide.html',
               },
               {
+                label: 'Visual Studio Code',
+                href: 'https://code.visualstudio.com/docs/setup/setup-overview',
+              },
+              {
+                label: 'Jira',
+                href: 'https://temple-cis-projects-in-cs.atlassian.net/',
+              },
+            ],
+          },
+          {
+            title: 'Other Tools',
+            items: [
+              {
+                label: 'Remote SSH - GPU Server',
+                to:'/gpu-server',
+              },
+              {
                 label: 'Docusaurus Tutorial',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Docusaurus Guide',
+                to: 'https://docusaurus.io/docs/category/guides',
               },
             ],
           },
