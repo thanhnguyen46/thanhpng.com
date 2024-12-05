@@ -1,0 +1,9 @@
+{
+  "type": "mdx",
+  "permalink": "/gpu-server",
+  "source": "@site/src/pages/gpu-server.mdx",
+  "title": "GPU Server SSH Tutorial",
+  "description": "For machine learning applications, Prof. Charles Wang left our class a 2017 Titan Xp GPU Server for training. Training machine learning models can be extremely time consuming and resource gating for personal computers. Not to mention, machine learning libraries such as Tensorflow, are optimized for NVidia Cuda cores. Developing on remote machines in the past used to be a pain, but now with IDEs like VSCode, we can work on code on remote servers as if they were running on our personal machines. To do this we will need to complete the following steps.",
+  "frontMatter": {},
+  "unlisted": false
+}
