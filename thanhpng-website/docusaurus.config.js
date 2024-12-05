@@ -64,6 +64,13 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/temple_logo.svg',
         },
+        items: [
+          {
+            href: 'https://www.linkedin.com/in/thanhpng/',
+            label: 'LinkedIn',
+            position: 'right',
+          },
+        ],
       },
       footer: {
         style: 'dark',
